@@ -1,19 +1,58 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotate 5.5s ease-in-out infinite 
+    position: absolute
+    top: 11%
+    right: 19%
+    width: 400px
+  &-2
+    animation: rotate 4.8s ease-in-out infinite 
+    position: absolute
+    top: 11%
+    right: 18%
+    width: 410px
+  &-3
+    width: 418px
+    animation: rotate 4.8s ease-in-out infinite 
     position: absolute
     top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
     right: 30%
+.banner-interno__fondo
+  background-imagen: url(../assets/curso/portada/banner-interno.svg) !important
+.slyder-100
+  .horizontal-scroll
+    align-items: normal !important
+.bloque-derecha
+  .bloque-texto-g__img
+    left: auto
+    right: 0
+  .bloque-texto-g
+    justify-content: flex-start !important
+  .bloque-texto-g__texto--border
+    position: relative
+    width: 57%
+    border: 2px dashed #004B89
+  .bloque-texto-g__texto
+    width: 
 
-
-@keyframes float1
+@keyframes rotate
   0%
-    transform: translateY(20px)
+    transform: rotate(0deg)
 
   100%
-    transform: translateY(0px)
+    transform: rotate(360deg)
+.w-80
+  width: 80%
+.w-65
+  width: 65%
+span.vermas
+  cursor: pointer
+  color: #7453d8
+  font-weight: bold
+  font-style: italic
+.text-start
+  p
+    text-align: start !important
+.titulo-principal.color-acento-contenido
+  span
+    color: $color-sistema-texto !important

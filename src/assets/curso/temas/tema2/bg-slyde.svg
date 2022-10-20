@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="498.23" viewBox="0 0 1240 498.23">
+  <g id="bg-slyde" transform="translate(-180 -2675)">
+    <rect id="Rectangle_44353" data-name="Rectangle 44353" width="1240" height="498.23" rx="27" transform="translate(180 2675)" fill="#7e89be" opacity="0.2"/>
+    <g id="Group_146918" data-name="Group 146918" transform="translate(180 3087.604) rotate(-90)">
+      <g id="Group_130709" data-name="Group 130709" transform="translate(0 0)">
+        <g id="Group_130708" data-name="Group 130708" transform="translate(350.721) rotate(90)" opacity="0.7">
+          <path id="Path_247495" data-name="Path 247495" d="M0,31.613H171.284l60.9,39.974,77.341-.727L356.187,0H608.518" transform="translate(1.034 172.946)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_247496" data-name="Path 247496" d="M372.755,35.43H139.435L87.586,0H0" transform="translate(1.034 26.826)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_247497" data-name="Path 247497" d="M681.733,37.206H557.167L524.89,69.484H407.842L373.789,35.43H140.469L88.62,0H0" transform="translate(0 66.284)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_338" data-name="Line 338" x2="277.118" transform="translate(1.034 180.835)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_247501" data-name="Path 247501" d="M0,39.118H158.1L216.673,0H300.2" transform="translate(1.034 311.604)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_247502" data-name="Path 247502" d="M0,0H426.462l39,55.082H608.518" transform="translate(1.034 284.064)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_341" data-name="Line 341" x2="151.336" transform="translate(1.034 312.668)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <line id="Line_347" data-name="Line 347" x2="248.874" transform="translate(1.034 144.718)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_247510" data-name="Path 247510" d="M0,0H151.336l39.947,26.31h238.6" transform="translate(1.034)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_175873" data-name="Path 175873" d="M0,0H505V498.23H214.2C92.6,492.067,3,382.2,0,264.485Z" transform="translate(915 2675)" fill="#7e89be"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870.339" height="179.002" viewBox="0 0 870.339 179.002">
+  <g id="bg-card1" transform="translate(1295.948 6973.585) rotate(180)">
+    <path id="Path_251093" data-name="Path 251093" d="M23.3,0H847.038c12.869,0,23.3,8.563,23.3,19.126V143.874c0,10.563-10.432,19.126-23.3,19.126H23.3C10.432,163,0,154.437,0,143.874V19.126C0,8.563,10.432,0,23.3,0Z" transform="translate(1295.948 6973.585) rotate(180)" fill="#e5e7f2"/>
+    <g id="Group_130801" data-name="Group 130801" transform="translate(1295.948 6796.083) rotate(90)" opacity="0.6">
+      <g id="Group_130082" data-name="Group 130082" transform="translate(0 0)">
+        <g id="Group_130709" data-name="Group 130709" transform="translate(0 0)">
+          <g id="Group_130708" data-name="Group 130708" transform="translate(156.974) rotate(90)" opacity="0.7">
+            <path id="Path_247495" data-name="Path 247495" d="M0,14.149H76.662l27.257,17.891,34.616-.326L159.421,0H272.358" transform="translate(0.463 77.406)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <path id="Path_247496" data-name="Path 247496" d="M166.836,15.858H62.408L39.2,0H0" transform="translate(0.463 12.006)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <path id="Path_247497" data-name="Path 247497" d="M305.127,16.653H249.375L234.928,31.1H182.54L167.3,15.858H62.87L39.664,0H0" transform="translate(0 29.667)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Line_338" data-name="Line 338" x2="124.031" transform="translate(0.463 80.937)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <path id="Path_247501" data-name="Path 247501" d="M0,17.508H70.76L96.977,0h37.384" transform="translate(0.463 139.466)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <path id="Path_247502" data-name="Path 247502" d="M0,0H190.874l17.455,24.653h64.029" transform="translate(0.463 127.14)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Line_341" data-name="Line 341" x2="67.734" transform="translate(0.463 139.942)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <line id="Line_347" data-name="Line 347" x2="111.39" transform="translate(0.463 64.772)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+            <path id="Path_247510" data-name="Path 247510" d="M0,0H67.734l17.88,11.776H192.4" transform="translate(0.463)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
