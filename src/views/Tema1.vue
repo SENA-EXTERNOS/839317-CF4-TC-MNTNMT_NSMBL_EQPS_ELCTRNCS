@@ -6,6 +6,7 @@
       .titulo-principal__numero
         span 1
       h1 Aparatos eléctricos y electrónicos
+    
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/1.jpg')})`}"
@@ -26,7 +27,27 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1.
       span Comercialización de los AEE
-    //Pendiente de plantear la interaccion de la imagen 
+    .info-hexagon
+      ImagenInfografica.color-acento-botones.mb-5
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/tema1/info.svg', alt='Texto que describa la imagen')
+        .tarjeta.color-acento-botones.p-3.text-center(x="17%" y="90%" numero="+")
+            p.text-white.mb-0(style='font-size: 57px').fw-bold 01
+            h3.mb-4 Linea blanca
+            p Incluye los electrodomésticos que sirven para la cocina, el lavado, la refrigeración y la ventilación.
+        .tarjeta.color-acento-botones.p-3.text-center(x="37.8%" y="2.3%" numero="+")
+            p.text-white.mb-0(style='font-size: 57px').fw-bold 02
+            h3.mb-4 Línea marrón
+            p Comprende una parte de la electrónica de consumo que engloba todos los equipos electrónicos utilizados cotidianamente para el entretenimiento, las comunicaciones y  tareas de oficina. En esta categoría se encuentran: televisores, equipos reproductores y grabadores de sonido y de vídeo.
+        .tarjeta.color-acento-botones.p-3.text-center(x="58.5%" y="90%" numero="+")
+            p.text-white.mb-0(style='font-size: 57px').fw-bold 03
+            h3.mb-4 Línea gris
+            p Se refiere a los dispositivos y aparatos de la gama tecnologías de la información y las comunicaciones (TIC) e incluye los computadores, impresoras, copiadoras, celulares y periféricos.
+        .tarjeta.color-acento-botones.p-3.text-center(x="79.3%" y="2.3%" numero="+")
+            p.text-white.mb-0(style='font-size: 57px').fw-bold 04
+            h3.mb-4 Pequeños electrodomésticos
+            p Pertenecen a esta línea los electrodomésticos menores que son utilizados en las cocinas, además de otros que se usan para el cuidado personal.
 
 
 
@@ -192,7 +213,6 @@
 
 
 
-
 </template>
 
 <script>
@@ -246,4 +266,35 @@ export default {
   background-image: none
   h3
     color: #000
+.hexagono
+  width: 0;
+  border-bottom: 30px solid #6C6;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+
+  width: 104px;
+  height: 60px;
+  background-color: #6C6;
+
+  width: 0;
+  border-top: 30px solid #6C6;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent
+
+.imagen-hexagon
+  background-color: transparent
+  background-image: url(../assets/curso/temas/tema1/hexagon.svg)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  // width: 450px
+  // height: 389px
+  position: relative
+  &__textos
+    position: inherit
+    top: 0
+    left: 0
+    width: 50%
+    transform: translate(50%, 0%)
+    height: 100%
 </style>

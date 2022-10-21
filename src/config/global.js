@@ -38,14 +38,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Aparatos eléctricos y electrónicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Categorías',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Componentes electrónicos',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Componentes Mecánicos',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Fabricantes',
+            hash: 't_1_4',
           },
         ],
       },
@@ -54,29 +72,69 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Equipamiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Herramientas y equipos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Procedimientos',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Fichas y manuales',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Elementos de marca',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ética',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistemas de Información',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Estructura orden de trabajo',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Balance de materiales',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Formatos, guías, reportes e instructivos',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -121,32 +179,184 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Ética en lo laboral y profesional',
+      referencia:
+        'SenaVirtualCursos. (2015). Curso SENA Sofia Plus Ética en lo laboral y profesional. [Vídeo]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=sQskfCM_Ae0',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Diagnóstico de circuitos electrónicos digitales: introducción',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Diagnóstico de circuitos electrónicos digitales: introducción. [Vídeo]. YouTube. ',
+      tipo: 'Video.',
+      link: 'https://www.youtube.com/watch?v=UV2wDC09B4g',
+    },
+    {
+      tema: 'Fabricantes',
+      referencia:
+        'Arrow Divisiones (2022). Fabricantes, Proporcionamos la tecnología que necesita. ',
+      tipo: 'Página Web.',
+      link: 'https://www.arrow.com/es-mx/manufacturers',
+    },
+    {
+      tema: 'Inventario Cero Cuánto y cuándo pedir.',
+      referencia:
+        'Mora, L. (2016). Inventario Cero Cuánto y cuándo pedir.  Colombia: Alfaomega.',
+      tipo: 'Libro  ',
+      link:
+        'https://books.google.com.co/books?hl=es&lr=&id=WaFxEAAAQBAJ&oi=fnd&pg=PA6&dq=Inventario+Cero+Cu%C3%A1nto+y+cu%C3%A1ndo+pedir.&ots=HjBxM0_txJ&sig=rk3nAOsb4VTW96lI9kT5LBKlGGE&redir_esc=y#v=onepage&q=Inventario%20Cero%20Cu%C3%A1nto%20y%20cu%C3%A1ndo%20pedir.&f=false',
+    },
+    {
+      tema: 'Uso del multímetro',
+      referencia:
+        'El Profe Ricardo. (2021). Uso del multímetro. [Vídeo]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=tT_hYtrp9xI',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Componente electrónico',
+      significado:
+        'dispositivos que forman parte de un circuito, configurados específicamente en una placa. Son de diferentes materiales y clasificaciones, de acuerdo con su aspecto, aplicación, etc.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Desarme',
+      significado:
+        'se refiere a la acción realizada para quitar las partes de un artefacto específico.',
+    },
+    {
+      termino: 'Fabricante',
+      significado:
+        'aquella persona o empresa que se dedica a la elaboración de diferentes productos.',
+    },
+    {
+      termino: 'Inspección',
+      significado:
+        'acción que se realiza con el objetivo de verificar el correcto funcionamiento o posible fallo de un aparato.',
+    },
+    {
+      termino: 'Material',
+      significado:
+        'composición física de un elemento, el cual le brinda características especiales para una aplicación específica.',
+    },
+    {
+      termino: 'Medición',
+      significado:
+        'es la acción que se realiza con algún instrumento de medida.',
+    },
+    {
+      termino: 'Pieza',
+      significado:
+        'es un elemento que forma parte de un conjunto, para este caso, puede ser mecánica o electrónica, cumpliendo una función específica dentro del sistema.',
+    },
+    {
+      termino: 'RAEE',
+      significado:
+        'es la denominación que se le da a los Residuos de Aparatos Eléctricos y Electrónicos.',
+    },
+    {
+      termino: 'Residuos',
+      significado:
+        'materiales o partes que ya no son útiles para un fin específico, el cuál debe ser dispuesto correctamente para su desecho.',
+    },
+    {
+      termino: 'Servicio',
+      significado:
+        'actividad que realiza especialmente cuando es para otra persona, por lo general es remunerado.',
+    },
+    {
+      termino: 'Soldadura',
+      significado:
+        'proceso industrial por medio del cual se unen mínimo dos elementos, que generalmente son metálicos, fundiendo',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alldatasheet. (2022). Hoja de datos LED-530LB5C (PDF) - Componentes electrónicos HB. ',
+      link:
+        'https://pdf1.alldatasheet.es/datasheet-pdf/view/739351/HB/LED-530LB5C.html',
+    },
+    {
+      referencia:
+        'Altium Limited. (2020). Ficha técnica de componentes electrónicos para su gestión. ',
+      link: 'https://resources.altium.com/es/p/component-management-datasheet',
+    },
+    {
+      referencia: 'Arrow Electronics. (2022). Fabricantes.',
+      link: 'https://www.arrow.com/es-mx/manufacturers',
+    },
+    {
+      referencia:
+        'Ecosistema de recursos educativos digitales SENA. (2022). Diagnóstico de circuitos electrónicos digitales: introducción. ',
+      link: 'https://www.youtube.com/watch?v=UV2wDC09B4g',
+    },
+    {
+      referencia:
+        'Educaplay. (2022). Desarme de elementos y piezas eléctricas y electrónicas. ',
+      link:
+        'https://es.educaplay.com/recursos-educativos/12816363-desarme_de_elementos_y_piezas_electricas_y_electronicas.html',
+    },
+    {
+      referencia:
+        'Encyclopedia Britannica, ImageQuest. (2022). Millones de imágenes libres de derechos de autor recopiladas en un único sitio confiable',
+      link: 'https://quest-eb-com.bdigital.sena.edu.co/',
+    },
+    {
+      referencia:
+        'Harper, G. E. (2002). Manual de instalación y reparación de aparatos electrodomésticos: instalaciones eléctricas e hidráulicas. Editorial Limusa.',
       link: '',
+    },
+    {
+      referencia:
+        'Hughes, R. (2022). Etiquetas de mantenimiento y reparación. ',
+      link:
+        'https://www.rshughes.mx/c/Etiquetas-De-Mantenimiento-Y-Reparacion/7096/',
+    },
+    {
+      referencia: 'Landín, P. (2017). Resumen de electrónica en infografías. ',
+      link:
+        'http://pelandintecno.blogspot.com/2017/05/resumen-de-electronica-en-infografias.html',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2017). Política Nacional. Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos – RAEE.',
+      link:
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Politica_RAEE.pdf      ',
+    },
+    {
+      referencia:
+        'Mora, L. (2016). Inventario Cero Cuánto y cuándo pedir. Colombia: Alfaomega.',
+      link: '',
+    },
+    {
+      referencia: 'Mouser Electronics, (2022). Componentes electrónicos.',
+      link: 'https://co.mouser.com/c/passive-components/',
+    },
+    {
+      referencia:
+        'Salazar, J. (2013). La ética profesional en la ingeniería electrónica. ',
+      link:
+        'https://juansalazars.wordpress.com/2013/01/03/la-etica-profesional-en- la- ingenieria-electronica/',
+    },
+    {
+      referencia:
+        'SENA. (2022). Diagnóstico de circuitos electrónicos digitales: introducción. (Video). Youtube ',
+      link: 'https://www.youtube.com/watch?v=UV2wDC09B4g',
+    },
+    {
+      referencia:
+        'Dombroysk, L. (2022). Orden de trabajo de mantenimiento: La guía completa. ',
+      link:
+        'https://tractian.com/es/blog/orden-de-trabajo-de-mantenimiento-la-guia-completa-2022/',
+    },
+    {
+      referencia:
+        'Pérez, O. (17 de sep 2021). ¿Qué hacer con los residuos de aparatos eléctricos y electrónicos, RAEE? UPB ',
+      link:
+        'https://www.upb.edu.co/es/central-blogs/sostenibilidad/reciclar-residuos-electronicos-y-electricos-raee',
     },
   ],
   creditos: {
