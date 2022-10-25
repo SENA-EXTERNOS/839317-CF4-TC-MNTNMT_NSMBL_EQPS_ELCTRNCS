@@ -87,7 +87,7 @@
       h2 5.3 Formatos, guías, reportes e instructivos
     .row.justify-content-center.mb-5
       .col-lg-8.position-relative
-        .tarjeta.p-4.position-relative(style="background-color: #e5e7f2; width: 100%")
+        .tarjeta.p-4.position-relative.bg-tec2(style=" width: 100%")
           .bg-card1.p-3.ms-5
             .row.justify-content-end
               .col-lg-10
@@ -147,5 +147,10 @@ export default {
   position: absolute
   bottom: 0
   left: 0
-  transform: translate(-45%, 20%)
+  transform: translate(-45%, 10%)
+.bg-tec2
+  background-image: url(../assets/curso/temas/tema5/bg-tec2.svg)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 </style>

@@ -19,13 +19,13 @@
     .row.justify-content-center.mb-5
       .col-lg-10.position-relative
         .tarjeta.p-4.position-relative(style="background-color: #ffe6c1; width: 78%")
-          .bg-card1.p-3.me-5
+          .p-3.me-5
             p.mb-0 Para desempeñar un buen trabajo se debe contar con las herramientas y equipos apropiados, no se debe sustituir con elementos que se crean pueden cumplir la misma función, es necesario identificar en cuál de los dos estados lógicos de la electrónica digital se encuentra, sea por ausencia o por presencia de la tensión, diagnosticando con elementos básicos cómo puntas lógicas, obviando los equipos adecuados. (SENA, 2022)
         .imagen-absolute.d-none.d-lg-block: img(src='@/assets/curso/temas/tema2/2.svg', alt='')
     .titulo.d-flex.align-items-center.mb-4
       i.fas.fa-square.me-3(style='color: #fda929' )
       h4.mb-0 Herramientas
-    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(style='border: 2px solid #20cb7d')
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/3.svg')})`}"
         
@@ -76,14 +76,15 @@
           .col-lg-7
             .p-4
               h4 Soldado y desoldado
-              p  La estación de soldadura es significativa para la reparación de dispositivos electrónicos, los componentes principales son: pistola de calor o cautín con base, soldadura de estaño plomo, líquido flux, malla desoldadora y extractor de soldadura, estos elementos son necesario tanto para el montaje de placa nuevas o como para el desarme de piezas en placas para reparar.
+              p  La estación de soldadura es significativa para la reparación de dispositivos electrónicos, los componentes principales son: pistola de calor o cautín con base, soldadura de estaño plomo, líquido flux, malla de soldadura y extractor de soldadura, estos elementos son necesario tanto para el montaje de placa nuevas o como para el desarme de piezas en placas para reparar.
           .col-lg-4(data-aos='fade-left')
             img(src='@/assets/curso/temas/tema2/8.png', alt='')
+    Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Procedimientos
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        .cajonb-editado
+        .cajonb-editado-azul
           .cajon-b.color-acento-contenido.abajo-derecha.p-3.mb-5
             p.mb-0 Para realizar la inspección inicial de un equipo eléctrico o electrónico, se debe de llevar a cabo una serie de pasos ordenados. Cabe aclarar que los procedimientos varían dependiendo de los dispositivos a intervenir. Al detectar algún tipo de falla es necesario determinar la posible causa que la origina, dado que por lo general hay un comportamiento inusual en el aparato, como ruidos, expulsión de humo, olores, goteo de fluidos, etc. Siempre es recomendado consultar los manuales para revisar los métodos de funcionamiento y de uso del artefacto, para descartar la posibilidad de fallas humanas, en caso de no detectarse algo así, se debe Investigar el origen del problema, chequear factores externos que afectan el dispositivo para su posterior daño, verificar si existen daños físicos externos, revisión de los controles, operar el equipo con sus funciones básicas para examinar el desperfecto, si no enciende se debe detectar el o los componentes que fallen para su reemplazo, durante todo el trámite se recomienda estar atento a la presencia de ruidos, chispas, olores, emisiones de humo o cualquier anomalía inusual que afecte el aparato. (SENA, 2022)
       .col-lg-5.col-8(data-aos="fade-left")
@@ -177,10 +178,10 @@
     .row.justify-content-center.mb-5
       .col-lg-8.position-relative
         .tarjeta.p-4.position-relative(style="background-color: #b1edd1; width: 100%")
-          .bg-card1.p-3.ms-5
+          .bg-card.p-3.ms-5
             .row.justify-content-end
               .col-lg-10
-                p.mb-0 En el mercado actual, existe una gran variedad de equipos electro – electrónicos, los cuales tienen un uso definido según el contexto y la tecnología con la que fueron desarrollados.
+                p.mb-0 Hace referencia a los documentos que pueden ser entregados por los proveedores o creados por la empresa para dar indicaciones propias. Contienen información valiosa y especifica de cada aparato. 
         .imagen-absolute2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema2/21.svg', alt='')
     .bg-form.p-5.mb-5
       .titulo.d-flex.align-items-center.mb-4
@@ -204,17 +205,17 @@
             p Hace referencia a los detalles externos y a las características más relevantes de los componentes, cabe anotar que se especifican datos sobresalientes de la apariencia externa y de la parte estética del equipo, (Alldatasheet, 2022).
       .bg-form.p-5.py-md-5(titulo="Valores")
         .row
-          .col-md-3: img(src='@/assets/curso/temas/tema2/23.svg', alt='')
+          .col-md-3: img(src='@/assets/curso/temas/tema2/24.svg', alt='')
           .col-md-9.mb-4.mb-md-0
             p Corresponde a los valores máximos y mínimos que determinan a cada elemento. Son los rangos de operación que requiere el dispositivo para el funcionamiento correcto. 
       .bg-form.p-5.py-md-5(titulo="Circuito electrónico")
         .row
-          .col-md-3: img(src='@/assets/curso/temas/tema2/23.svg', alt='')
+          .col-md-3: img(src='@/assets/curso/temas/tema2/25.svg', alt='')
           .col-md-9.mb-4.mb-md-0
             p Son generalmente las placas PCB (Printed Circuit Board - Placas de Circuito Impreso), las cuales contienen diferentes tipos de componentes, traen información técnica necesaria para ser manipulada e intervenida en mediciones y pruebas.
       .bg-form.p-5.py-md-5(titulo="Características de los elementos")
         .row
-          .col-md-3: img(src='@/assets/curso/temas/tema2/23.svg', alt='')
+          .col-md-3: img(src='@/assets/curso/temas/tema2/26.svg', alt='')
           .col-md-9.mb-4.mb-md-0
             p #[b Mecánicas]
               br
@@ -235,39 +236,40 @@
               .col-lg-10
                 p.mb-0 Son instructivos, donde los fabricantes o proveedores explican las pautas del mantenimiento, los repuestos que se deben de tener a la mano y las fallas más comunes, así como todos los protocolos de seguridad necesarios, este documento es de carácter más general para el público y los usuarios, no requiere de un alto grado de capacitación para su entendimiento, diferente a las fichas que contienen información más técnica,  (Harper, 2002). 
         .imagen-absolute3.d-none.d-lg-block: img(src='@/assets/curso/temas/tema2/27.svg', alt='')
-    p.mb-5(data-aos='fade-right') A continuación, se explican las principales partes de los manuales de servicio, entendiendo que es un documento que ayuda a la resolver problemas simples, que pueden ser solucionados por el usuario o personal con poca capacitación, teniendo en cuenta que puede o no ser solucionado el error común presentado que se encuentre en la lista de problemas frecuentes para ese equipo.
-    .row.justify-content-center.mb-5
-      .col-lg-10.text-start
-        PasosA.color-secundario.mb-5(tipo="n")
-          .row(titulo="").justify-content-between
-            .col-md-6.mb-4.mb-md-0
-              h4 Portada
-              p Se hace referencia al nombre, modelo y una imagen, lo más ilustrativo del aparato electrónico, cada manual puede tener información diferente dependiendo del fabricante y de los lugares del mundo donde se realice.
-            .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/28.svg', alt='')
-          .row(titulo="").justify-content-between
-            .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/29.svg', alt='')
-            .col-md-6.mb-4.mb-md-0
-              h4 Operación básica
-              p Se presenta una vista general del equipo, funcionamiento básico, botones de acceso principales, así como las tablas y diagramas principales. Es una guía sencilla y rápida donde el usuario puede guiarse para realizar las tareas más sencillas del equipo.
-          .row(titulo="").justify-content-between
-            .col-md-6.mb-4.mb-md-0
-              h4 Información del hardware
-              p Se enseñan los diagramas electrónicos principales, piezas mecánicas y componentes necesarios, utilizados en el aparato. Se representan los esquemas más importantes, pueden ser una o varias, teniendo en cuenta la cantidad de sistemas principales que tenga el equipo.
-            .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/30.svg', alt='')
-          .row(titulo="").justify-content-between
-            .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/31.svg', alt='')
-            .col-md-6.mb-4.mb-md-0
-              h4 Información del software
-              p Si son aparatos con pantallas de visualización, se debe revisar el sistema operativo, para la actualización y compatibilidad con los otros dispositivos.
-          .row(titulo="").justify-content-between
-            .col-md-6.mb-4.mb-md-0
-              h4 Solución de problemas
-              p Se hace una lista, que contenga problemas frecuentes o los menos habituales, cada uno con una solución sencilla interviniendo el componente que se requiere.
-                br
-                br
-                |Una buena opción para el arreglo de las fallas que se presentan de manera constante, es el reemplazo o iniciación de proyectos electrónicos, es la implementación de Impresoras 3D, para el diseño de partes externas y cambio de piezas averiadas, etc.
-            .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/32.svg', alt='')
-            
+    .bg-linea-tiempo.p-5 
+      p.mb-5(data-aos='fade-right') A continuación, se explican las principales partes de los manuales de servicio, entendiendo que es un documento que ayuda a la resolver problemas simples, que pueden ser solucionados por el usuario o personal con poca capacitación, teniendo en cuenta que puede o no ser solucionado el error común presentado que se encuentre en la lista de problemas frecuentes para ese equipo.
+      .row.justify-content-center.mb-5
+        .col-lg-10.text-start
+          PasosA.color-secundario.mb-5(tipo="n")
+            .row(titulo="").justify-content-between
+              .col-md-6.mb-4.mb-md-0
+                h4 Portada
+                p Se hace referencia al nombre, modelo y una imagen, lo más ilustrativo del aparato electrónico, cada manual puede tener información diferente dependiendo del fabricante y de los lugares del mundo donde se realice.
+              .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/28.svg', alt='')
+            .row(titulo="").justify-content-between
+              .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/29.svg', alt='')
+              .col-md-6.mb-4.mb-md-0
+                h4 Operación básica
+                p Se presenta una vista general del equipo, funcionamiento básico, botones de acceso principales, así como las tablas y diagramas principales. Es una guía sencilla y rápida donde el usuario puede guiarse para realizar las tareas más sencillas del equipo.
+            .row(titulo="").justify-content-between
+              .col-md-6.mb-4.mb-md-0
+                h4 Información del hardware
+                p Se enseñan los diagramas electrónicos principales, piezas mecánicas y componentes necesarios, utilizados en el aparato. Se representan los esquemas más importantes, pueden ser una o varias, teniendo en cuenta la cantidad de sistemas principales que tenga el equipo.
+              .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/30.svg', alt='')
+            .row(titulo="").justify-content-between
+              .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/31.svg', alt='')
+              .col-md-6.mb-4.mb-md-0
+                h4 Información del software
+                p Si son aparatos con pantallas de visualización, se debe revisar el sistema operativo, para la actualización y compatibilidad con los otros dispositivos.
+            .row(titulo="").justify-content-between
+              .col-md-6.mb-4.mb-md-0
+                h4 Solución de problemas
+                p Se hace una lista, que contenga problemas frecuentes o los menos habituales, cada uno con una solución sencilla interviniendo el componente que se requiere.
+                  br
+                  br
+                  |Una buena opción para el arreglo de las fallas que se presentan de manera constante, es el reemplazo o iniciación de proyectos electrónicos, es la implementación de Impresoras 3D, para el diseño de partes externas y cambio de piezas averiadas, etc.
+              .col-md-2.col-6: img(src='@/assets/curso/temas/tema2/32.svg', alt='')
+              
 
 </template>
 
@@ -322,9 +324,10 @@ export default {
   .slyder-a__bullets__item--active
     background-color: #ffca79 !important
       border: none
-.cajonb-editado
+.cajonb-editado-azul
   .cajon-b::before
-    background-color: #ddf7ec !important
+    background-color: #def7ec !important
+    opacity: 1 !important
 .bg-pasos
   background-image: url('../assets/curso/temas/tema2/bg-pasos.svg')
   background-size: cover
@@ -355,4 +358,10 @@ export default {
 .pasos-b__header__btn--left, .pasos-b__header__btn--right
   background-color: #ffca79
   border: none
+.bg-linea-tiempo
+  background-image: url('../assets/curso/temas/tema2/bg-linea-tiempo.svg')
+  background-size: cover
+  background-position: start
+  background-repeat: no-repeat
+  margin: 0 -3rem
 </style>

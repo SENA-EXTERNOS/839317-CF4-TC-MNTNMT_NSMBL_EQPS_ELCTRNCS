@@ -32,19 +32,19 @@
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/info.svg', alt='Texto que describa la imagen')
-        .tarjeta.color-acento-botones.p-3.text-center(x="17%" y="90%" numero="+")
+        .tarjeta.color-acento-botones.p-3.text-center(x="17%" y="90%" numero="")
             p.text-white.mb-0(style='font-size: 57px').fw-bold 01
             h3.mb-4 Linea blanca
             p Incluye los electrodomésticos que sirven para la cocina, el lavado, la refrigeración y la ventilación.
-        .tarjeta.color-acento-botones.p-3.text-center(x="37.8%" y="2.3%" numero="+")
+        .tarjeta.color-acento-botones.p-3.text-center(x="37.8%" y="2.3%" numero="")
             p.text-white.mb-0(style='font-size: 57px').fw-bold 02
             h3.mb-4 Línea marrón
             p Comprende una parte de la electrónica de consumo que engloba todos los equipos electrónicos utilizados cotidianamente para el entretenimiento, las comunicaciones y  tareas de oficina. En esta categoría se encuentran: televisores, equipos reproductores y grabadores de sonido y de vídeo.
-        .tarjeta.color-acento-botones.p-3.text-center(x="58.5%" y="90%" numero="+")
+        .tarjeta.color-acento-botones.p-3.text-center(x="58.5%" y="90%" numero="")
             p.text-white.mb-0(style='font-size: 57px').fw-bold 03
             h3.mb-4 Línea gris
             p Se refiere a los dispositivos y aparatos de la gama tecnologías de la información y las comunicaciones (TIC) e incluye los computadores, impresoras, copiadoras, celulares y periféricos.
-        .tarjeta.color-acento-botones.p-3.text-center(x="79.3%" y="2.3%" numero="+")
+        .tarjeta.color-acento-botones.p-3.text-center(x="79.3%" y="2.3%" numero="")
             p.text-white.mb-0(style='font-size: 57px').fw-bold 04
             h3.mb-4 Pequeños electrodomésticos
             p Pertenecen a esta línea los electrodomésticos menores que son utilizados en las cocinas, además de otros que se usan para el cuidado personal.
@@ -156,38 +156,39 @@
                 |De acuerdo con Landín (2017), los componentes electrónicos se pueden clasificar teniendo en cuenta diversos criterios.
           .imagen-absolute2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/19.svg', alt='')
     p.mb-5(data-aos='fade-right') Según Landín (2017), en el documento se aborda contenido referente a la distribución de los dispositivos que forman parte de los circuitos electrónicos, su aplicabilidad y funcionamiento correcto, realizando la configuración y diseño más acertado de la placa escogida. 
-    .row.justify-content-center.mb-5
-      .col-lg-8(data-aos="fade-right")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-bg")
-          div(titulo='Según su funcionamiento')
-            p #[b Pasivos:] son llamados de este modo por no tener la capacidad de suministrar energía por sí mismos, son utilizados para la comunicación de los componentes activos o el mejoramiento de las señales transmitidas. Entre los más conocidos están: las resistencias, bobinas, condensadores.
-              br
-              br
-              |#[b Activos:] son aquellos que proporcionan la energía, controlando las ganancias de flujo y corriente de los circuitos. Se emplean en los sistemas electrónicos, configurados a partir de mínimo un componente de estos. De esta categoría hacen parte: las baterías, diodo, microprocesador, microcontrolador, transistor, etc. 
-          div(titulo='Según el material de fabricación')
-            p #[b Semiconductores:] emplean las propiedades eléctricas de materiales semiconductores, los cuales pueden ser orgánicos o no, entre los materiales más utilizados están el silicio, arseniuro y el germanio. Entre los más se destacan: el transistor Mosfet, diodos, tiristores, etc
-          div(titulo='Según su estructura física')
-            p #[b Discretos:] su presentación es de forma encapsulada e individual, cómo es el caso de los condensadores, resistencias, diodos, etc. Es importante consultar siempre en la hoja de datos la forma de conexión, para tener en cuenta la polaridad de los componentes, dado que no todos pueden conectarse en diferentes posiciones.
-              br
-              br
-              |#[b Integrados:] son parte de un conjunto de dispositivos discretos llamados circuitos integrados, que se organizan para cumplir varias funciones, algunos son amplificadores operacionales y compuertas lógicas, suelen ser de un tamaño muy pequeño y con muchos terminales para ser conectados, los mismos deben ser examinados  en una hoja de datos o data sheet, para su correcta conexión y funcionamiento, han sido desplazados por otro tipo de tarjetas más sencillas en la programación, las cuales son reutilizables.
-          div(titulo='Según el tipo de energía')
-            p #[b Optoelectrónicos:] tienen la capacidad de convertir la energía lumínica en eléctrica y viceversa, poseen gran auge en la industria de las energías limpias y renovables que se impulsan por el planeta. Algunas de las más conocidas son las celdas solares y las luces LED.
-              br
-              br
-              |#[b Electroacústicos:] tienen la competencia de transformar la energía acústica en eléctrica y viceversa. Algunos de los más conocidos son los auriculares, bocinas, altavoces, parlantes y micrófonos.
-              br
-              br
-              |#[b Electromagnéticos:] son componentes mixtos, una parte electrónica y una magnética, aprovechando las propiedades de los materiales, trabajando bajo ambos principios y dependiendo de estos para su operación correcta. sobresalen: los transformadores e inductores.
-              br
-              br
-              |#[b Información tomada de Mouser Electronics, (2022).]
-      .col-lg-4.col-6(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 2
-          span Internet de las cosas 
-        img(src='@/assets/curso/temas/tema1/20.svg', alt='').mb-3
-        figcaption(style='background-color: #f6f1ff') Nota: Adaptada de Diagrama de flujo isométrico de Internet de las cosas, Arrow Electronics, (2022)
+    .margin-n.bg-rosa.p-5
+      .row.justify-content-center.mb-5
+        .col-lg-8(data-aos="fade-right")
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-bg")
+            div(titulo='Según su funcionamiento')
+              p #[b Pasivos:] son llamados de este modo por no tener la capacidad de suministrar energía por sí mismos, son utilizados para la comunicación de los componentes activos o el mejoramiento de las señales transmitidas. Entre los más conocidos están: las resistencias, bobinas, condensadores.
+                br
+                br
+                |#[b Activos:] son aquellos que proporcionan la energía, controlando las ganancias de flujo y corriente de los circuitos. Se emplean en los sistemas electrónicos, configurados a partir de mínimo un componente de estos. De esta categoría hacen parte: las baterías, diodo, microprocesador, microcontrolador, transistor, etc. 
+            div(titulo='Según el material de fabricación')
+              p #[b Semiconductores:] emplean las propiedades eléctricas de materiales semiconductores, los cuales pueden ser orgánicos o no, entre los materiales más utilizados están el silicio, arseniuro y el germanio. Entre los más se destacan: el transistor Mosfet, diodos, tiristores, etc
+            div(titulo='Según su estructura física')
+              p #[b Discretos:] su presentación es de forma encapsulada e individual, cómo es el caso de los condensadores, resistencias, diodos, etc. Es importante consultar siempre en la hoja de datos la forma de conexión, para tener en cuenta la polaridad de los componentes, dado que no todos pueden conectarse en diferentes posiciones.
+                br
+                br
+                |#[b Integrados:] son parte de un conjunto de dispositivos discretos llamados circuitos integrados, que se organizan para cumplir varias funciones, algunos son amplificadores operacionales y compuertas lógicas, suelen ser de un tamaño muy pequeño y con muchos terminales para ser conectados, los mismos deben ser examinados  en una hoja de datos o data #[em sheet], para su correcta conexión y funcionamiento, han sido desplazados por otro tipo de tarjetas más sencillas en la programación, las cuales son reutilizables.
+            div(titulo='Según el tipo de energía')
+              p #[b Optoelectrónicos:] tienen la capacidad de convertir la energía lumínica en eléctrica y viceversa, poseen gran auge en la industria de las energías limpias y renovables que se impulsan por el planeta. Algunas de las más conocidas son las celdas solares y las luces LED.
+                br
+                br
+                |#[b Electroacústicos:] tienen la competencia de transformar la energía acústica en eléctrica y viceversa. Algunos de los más conocidos son los auriculares, bocinas, altavoces, parlantes y micrófonos.
+                br
+                br
+                |#[b Electromagnéticos:] son componentes mixtos, una parte electrónica y una magnética, aprovechando las propiedades de los materiales, trabajando bajo ambos principios y dependiendo de estos para su operación correcta. sobresalen: los transformadores e inductores.
+                br
+                br
+                |#[b Información tomada de Mouser Electronics, (2022).]
+        .col-lg-4.col-6(data-aos="fade-left")
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 2
+            span Internet de las cosas 
+          img(src='@/assets/curso/temas/tema1/20.svg', alt='').mb-3
+          figcaption(style='background-color: #f6f1ff') Nota: Adaptada de Diagrama de flujo isométrico de Internet de las cosas, Arrow Electronics, (2022)
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Componentes Mecánicos
@@ -297,4 +298,10 @@ export default {
     width: 50%
     transform: translate(50%, 0%)
     height: 100%
+.bg-rosa
+  background-image: url(../assets/curso/temas/tema1/bg-rosa.svg)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  margin: 0 -3rem
 </style>
