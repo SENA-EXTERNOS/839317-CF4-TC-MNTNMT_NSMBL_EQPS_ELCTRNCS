@@ -79,7 +79,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10.position-relative
         .tarjeta.p-4.position-relative(style="background-color: #fff2df; width: 78%")
-          .bg-card1.p-3.me-5
+          .bg-card.p-3.me-5
             p.mb-0.me-2 Al terminar las intervenciones se debe desarrollar un balance de los materiales empleados y los componentes reemplazados, es importante demostrar al usuario los dispositivos que se utilizaron, dejando claro el estado actual de funcionamiento y el uso que desempeña en el aparato, desde la parte ética, sirve para generar confianza y credibilidad entre los usuarios y la organización. Se debe hacer una disposición final adecuada de los materiales, de acuerdo con la normatividad RAEE.
         .imagen-absolute.d-none.d-lg-block: img(src='@/assets/curso/temas/tema5/2.svg', alt='')
     Separador

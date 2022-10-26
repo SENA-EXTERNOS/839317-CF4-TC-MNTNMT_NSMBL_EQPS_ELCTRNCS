@@ -33,20 +33,20 @@
           figure
             img(src='@/assets/curso/temas/tema1/info.svg', alt='Texto que describa la imagen')
         .tarjeta.color-acento-botones.p-3.text-center(x="17%" y="90%" numero="")
-            p.text-white.mb-0(style='font-size: 57px').fw-bold 01
-            h3.mb-4 Linea blanca
+            //- p.text-white.mb-0(style='font-size: 57px').fw-bold 01
+            //- h3.mb-4 Linea blanca
             p Incluye los electrodomésticos que sirven para la cocina, el lavado, la refrigeración y la ventilación.
         .tarjeta.color-acento-botones.p-3.text-center(x="37.8%" y="2.3%" numero="")
-            p.text-white.mb-0(style='font-size: 57px').fw-bold 02
-            h3.mb-4 Línea marrón
+            //- p.text-white.mb-0(style='font-size: 57px').fw-bold 02
+            //- h3.mb-4 Línea marrón
             p Comprende una parte de la electrónica de consumo que engloba todos los equipos electrónicos utilizados cotidianamente para el entretenimiento, las comunicaciones y  tareas de oficina. En esta categoría se encuentran: televisores, equipos reproductores y grabadores de sonido y de vídeo.
         .tarjeta.color-acento-botones.p-3.text-center(x="58.5%" y="90%" numero="")
-            p.text-white.mb-0(style='font-size: 57px').fw-bold 03
-            h3.mb-4 Línea gris
+            //- p.text-white.mb-0(style='font-size: 57px').fw-bold 03
+            //- h3.mb-4 Línea gris
             p Se refiere a los dispositivos y aparatos de la gama tecnologías de la información y las comunicaciones (TIC) e incluye los computadores, impresoras, copiadoras, celulares y periféricos.
         .tarjeta.color-acento-botones.p-3.text-center(x="79.3%" y="2.3%" numero="")
-            p.text-white.mb-0(style='font-size: 57px').fw-bold 04
-            h3.mb-4 Pequeños electrodomésticos
+            //- p.text-white.mb-0(style='font-size: 57px').fw-bold 04
+            //- h3.mb-4 Pequeños electrodomésticos
             p Pertenecen a esta línea los electrodomésticos menores que son utilizados en las cocinas, además de otros que se usan para el cuidado personal.
 
 
