@@ -10,7 +10,7 @@
       h1 Introducción
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        p  Esta guía de estudio está orientada al desarme de elementos, piezas eléctricas y electrónicas y profundiza sobre la clasificación, equipamiento y elementos necesarios para las intervenciones en estos equipos, además de tener un énfasis en el comportamiento ético que se debe tener al momento de realizar estos trabajos y almacenar los datos obtenidos durante el proceso de reparación. Para ello, se han diseñado diferentes recursos que le permiten al estudiante apropiarse de los saberes principales y del material complementario para ampliar su espectro de aprendizaje.
+        p  Este componente formativo está orientado al desarme de elementos, piezas eléctricas y electrónicas y profundiza sobre la clasificación, equipamiento y elementos necesarios para las intervenciones en estos equipos, además de tener un énfasis en el comportamiento ético que se debe tener al momento de realizar estos trabajos y almacenar los datos obtenidos durante el proceso de reparación. Para ello, se han diseñado diferentes recursos que le permiten al estudiante apropiarse de los saberes principales y del material complementario para ampliar su espectro de aprendizaje.
           br
           br
           |En el siguiente video conocerá de forma general, la temática que estudiará a lo largo de este componente formativo.
