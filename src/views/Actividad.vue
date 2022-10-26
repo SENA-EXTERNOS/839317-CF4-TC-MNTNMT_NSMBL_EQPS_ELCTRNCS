@@ -10,7 +10,7 @@
             img(src="@/assets/curso/temas/ad.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Arrastrar y soltar
+          h2 Desarme de elementos, piezas eléctricas y electrónicas
         p.mb-4 La actividad que se presenta a continuación tiene como propósito validar los conceptos asociados a los saberes desarrollados en este componente formativo. Para ello, debe asociar cada concepto con su respectiva definición. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
