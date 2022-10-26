@@ -5,7 +5,8 @@
 
     p Una vez finalizado el desarrollo de esta guía de aprendizaje, se da a conocer un mapa conceptual el cual servirá como herramienta de repaso de los saberes aprendidos.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      p.mb-0: b Figura 11.
+      p.mb-0
+        b Figura 11.
         br
         em Desarme de elementos y piezas eléctricas y electrónicas.
     .row.justify-content-center
