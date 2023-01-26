@@ -3,18 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Una vez finalizado el desarrollo de esta guía de aprendizaje, se da a conocer un mapa conceptual el cual servirá como herramienta de repaso de los saberes aprendidos.
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      p.mb-0
-        b Figura 11.
-        br
-        em Desarme de elementos y piezas eléctricas y electrónicas.
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
+
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis-.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

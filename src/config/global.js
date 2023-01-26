@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Desarme de elementos, piezas eléctricas y electrónicas',
     descripcionCurso:
-      'El desarme de los equipos es una de las funciones principales de este componente formativo; para ello, se tendrá en cuenta aspectos técnicos como el orden, aseo, seguridad, entre otros. Adicionalmente, se aprenderá a diligenciar las diferentes evidencias y hallazgos que se encuentran durante el mantenimiento, así como darle una buena disposición a los componentes que se emplean en estos. ',
+      'El desarme de los equipos es una de las funciones clave en los procesos de mantenimiento y ensamble. Este componente formativo aborda conceptos y acciones de operación que afianzarán conocimientos y habilidades del aprendiz. Se desarrollarán aspectos técnicos como: orden, aseo, seguridad, diligenciamiento de las diferentes evidencias y hallazgos que se encuentran durante el mantenimiento. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -50,20 +50,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Componentes electrónicos',
+            titulo: 'Componentes electrónicos y componentes mecánicos',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Componentes Mecánicos',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Fabricantes',
-            hash: 't_1_4',
           },
         ],
       },
@@ -74,67 +62,20 @@ export default {
         numero: '2',
         titulo: 'Equipamiento',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Herramientas y equipos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Procedimientos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Fichas y manuales',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Elementos de marca',
+        titulo: 'Elementos de marca y ámbito ético de los procedimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Ética',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
         titulo: 'Sistemas de Información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Estructura orden de trabajo',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Balance de materiales',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Formatos, guías, reportes e instructivos',
-            hash: 't_5_3',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -179,38 +120,38 @@ export default {
   },
   complementario: [
     {
-      tema: 'Ética en lo laboral y profesional',
+      tema: 'Elementos de marca y ámbito ético de los procedimientos',
       referencia:
-        'SenaVirtualCursos. (2015). Curso SENA Sofia Plus Ética en lo laboral y profesional. [Vídeo]. YouTube. ',
+        'SenaVirtualCursos. (2015). <em>Curso SENA Sofia Plus Ética en lo laboral y profesional [video]. </em>YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=sQskfCM_Ae0',
     },
     {
-      tema: 'Diagnóstico de circuitos electrónicos digitales: introducción',
+      tema: 'Aparatos eléctricos y electrónicos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Diagnóstico de circuitos electrónicos digitales: introducción. [Vídeo]. YouTube. ',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Diagnóstico de circuitos electrónicos digitales: introducción</em> [video]. YouTube. ',
       tipo: 'Video.',
       link: 'https://www.youtube.com/watch?v=UV2wDC09B4g',
     },
     {
-      tema: 'Fabricantes',
+      tema: 'Aparatos eléctricos y electrónicos',
       referencia:
-        'Arrow Divisiones (2022). Fabricantes, Proporcionamos la tecnología que necesita. ',
+        'Arrow Divisiones. (2022). <em>Fabricantes, Proporcionamos la tecnología que necesita. Arrow.</em> ',
       tipo: 'Página Web.',
       link: 'https://www.arrow.com/es-mx/manufacturers',
     },
     {
-      tema: 'Inventario Cero Cuánto y cuándo pedir.',
+      tema: 'Equipamiento',
       referencia:
-        'Mora, L. (2016). Inventario Cero Cuánto y cuándo pedir.  Colombia: Alfaomega.',
+        'Mora, L. (2016). <em>Inventario Cero Cuánto y cuándo pedir.</em> Alfaomega.',
       tipo: 'Libro  ',
       link:
         'https://books.google.com.co/books?hl=es&lr=&id=WaFxEAAAQBAJ&oi=fnd&pg=PA6&dq=Inventario+Cero+Cu%C3%A1nto+y+cu%C3%A1ndo+pedir.&ots=HjBxM0_txJ&sig=rk3nAOsb4VTW96lI9kT5LBKlGGE&redir_esc=y#v=onepage&q=Inventario%20Cero%20Cu%C3%A1nto%20y%20cu%C3%A1ndo%20pedir.&f=false',
     },
     {
-      tema: 'Uso del multímetro',
+      tema: 'Aparatos eléctricos y electrónicos',
       referencia:
-        'El Profe Ricardo. (2021). Uso del multímetro. [Vídeo]. YouTube. ',
+        'El Profe Ricardo. (2021). <em>Uso del multímetro </em>[video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=tT_hYtrp9xI',
     },
@@ -259,7 +200,7 @@ export default {
     {
       termino: 'Residuos',
       significado:
-        'materiales o partes que ya no son útiles para un fin específico, el cuál debe ser dispuesto correctamente para su desecho.',
+        'materiales o partes que ya no son útiles para un fin específico, los cuales deben ser dispuestos correctamente para su desecho.',
     },
     {
       termino: 'Servicio',
@@ -275,48 +216,45 @@ export default {
   referencias: [
     {
       referencia:
-        'Alldatasheet. (2022). Hoja de datos LED-530LB5C (PDF) - Componentes electrónicos HB. ',
+        'Alldatasheet. (2022). Hoja de datos LED-530LB5C (PDF) - Componentes electrónicos HB. Alldatasheet. ',
       link:
         'https://pdf1.alldatasheet.es/datasheet-pdf/view/739351/HB/LED-530LB5C.html',
     },
     {
       referencia:
-        'Altium Limited. (2020). Ficha técnica de componentes electrónicos para su gestión. ',
-      link: 'https://resources.altium.com/es/p/component-management-datasheet',
+        'Altium Limited. (2020). Ficha técnica de componentes electrónicos para su gestión',
+      link:
+        'https://resources.altium.com/sites/default/files/uberflip_docs/file_806.pdf',
     },
     {
-      referencia: 'Arrow Electronics. (2022). Fabricantes.',
+      referencia: 'Arrow Electronics. (2022). Fabricantes. Arrow.',
       link: 'https://www.arrow.com/es-mx/manufacturers',
     },
     {
       referencia:
-        'Ecosistema de recursos educativos digitales SENA. (2022). Diagnóstico de circuitos electrónicos digitales: introducción. ',
-      link: 'https://www.youtube.com/watch?v=UV2wDC09B4g',
-    },
-    {
-      referencia:
-        'Educaplay. (2022). Desarme de elementos y piezas eléctricas y electrónicas. ',
+        'López, C. (2022). Desarme de elementos y piezas eléctricas y electrónicas. Educaplay.',
       link:
         'https://es.educaplay.com/recursos-educativos/12816363-desarme_de_elementos_y_piezas_electricas_y_electronicas.html',
     },
     {
       referencia:
-        'Encyclopedia Britannica, ImageQuest. (2022). Millones de imágenes libres de derechos de autor recopiladas en un único sitio confiable',
+        'Encyclopedia Britannica ImageQuest. (2022). Millones de imágenes libres de derechos de autor recopiladas en un único sitio confiable. Bdigital.sena.',
       link: 'https://quest-eb-com.bdigital.sena.edu.co/',
     },
     {
       referencia:
-        'Harper, G. E. (2002). Manual de instalación y reparación de aparatos electrodomésticos: instalaciones eléctricas e hidráulicas. Editorial Limusa.',
+        'Harper, G. (2002). Manual de instalación y reparación de aparatos electrodomésticos: instalaciones eléctricas e hidráulicas. Editorial Limusa.',
       link: '',
     },
     {
       referencia:
-        'Hughes, R. (2022). Etiquetas de mantenimiento y reparación. ',
+        'Hughes, R. S. (2022). Etiquetas de mantenimiento y reparación. Rshughes.',
       link:
         'https://www.rshughes.mx/c/Etiquetas-De-Mantenimiento-Y-Reparacion/7096/',
     },
     {
-      referencia: 'Landín, P. (2017). Resumen de electrónica en infografías. ',
+      referencia:
+        'Landín, P. (2017). Resumen de electrónica en infografías. Pelandintecno.',
       link:
         'http://pelandintecno.blogspot.com/2017/05/resumen-de-electronica-en-infografias.html',
     },
@@ -324,39 +262,23 @@ export default {
       referencia:
         'Ministerio de Ambiente y Desarrollo Sostenible. (2017). Política Nacional. Gestión Integral de Residuos de Aparato Eléctricos y Electrónicos – RAEE.',
       link:
-        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Politica_RAEE.pdf      ',
+        'https://www.minambiente.gov.co/wp-content/uploads/2021/10/Politica_RAEE.pdf',
     },
     {
       referencia:
-        'Mora, L. (2016). Inventario Cero Cuánto y cuándo pedir. Colombia: Alfaomega.',
+        'Mora, L. (2016). Inventario Cero Cuánto y cuándo pedir. Alfaomega.',
       link: '',
     },
     {
-      referencia: 'Mouser Electronics, (2022). Componentes electrónicos.',
+      referencia:
+        'Mouser Electronics. (2022). Componentes electrónicos. Mouser.',
       link: 'https://co.mouser.com/c/passive-components/',
     },
     {
       referencia:
-        'Salazar, J. (2013). La ética profesional en la ingeniería electrónica. ',
+        'Salazar, J. (2013). La ética profesional en la ingeniería electrónica. [Web log post]. Wordpress.',
       link:
         'https://juansalazars.wordpress.com/2013/01/03/la-etica-profesional-en- la- ingenieria-electronica/',
-    },
-    {
-      referencia:
-        'SENA. (2022). Diagnóstico de circuitos electrónicos digitales: introducción. (Video). Youtube ',
-      link: 'https://www.youtube.com/watch?v=UV2wDC09B4g',
-    },
-    {
-      referencia:
-        'Dombroysk, L. (2022). Orden de trabajo de mantenimiento: La guía completa. ',
-      link:
-        'https://tractian.com/es/blog/orden-de-trabajo-de-mantenimiento-la-guia-completa-2022/',
-    },
-    {
-      referencia:
-        'Pérez, O. (17 de sep 2021). ¿Qué hacer con los residuos de aparatos eléctricos y electrónicos, RAEE? UPB ',
-      link:
-        'https://www.upb.edu.co/es/central-blogs/sostenibilidad/reciclar-residuos-electronicos-y-electricos-raee',
     },
   ],
   creditos: {
