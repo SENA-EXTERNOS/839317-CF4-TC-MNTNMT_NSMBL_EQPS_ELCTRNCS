@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Sistemas de Información
+      h1 Sistemas de información 
     p.mb-3(data-aos='fade-right') Es vital entender e identificar el procedimiento que se lleva a cabo, a la hora de implementar un sistema de información en una organización, como estrategia que ayude al mejoramiento continuo y facilitar la interpretación de los procesos para la toma de decisiones. 
     p.mb-5(data-aos='fade-right') Profundice en las generalidades de la implementación de sistemas de información observando, con atención, el siguiente video:
 
@@ -14,8 +14,8 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     
-    h3 Estructura orden de trabajo
-    p.mb-5(data-aos='fade-right') Es un documento con especificaciones concretas para realizar un servicio, se toma como un primer escrito donde se consignan las condiciones iniciales del aparato, es recomendable que se entregue una copia al cliente y otra a la persona encargada de la labor, (Tractian, 2022).
+    h3 Estructura de orden de trabajo
+    p.mb-5(data-aos='fade-right') La estructura de orden de trabajo, es un documento con especificaciones concretas para realizar un servicio. Se concibe como un primer escrito donde se consignan las condiciones iniciales del aparato; es recomendable que se entregue una copia al cliente y otra a la persona encargada de la labor. (Tractian, 2022)
       br
       br
       | Cada organización es libre de establecer un formato que le permita realizar esta actividad, para ello, se sugieren tener presente los siguientes aspectos.
@@ -26,7 +26,7 @@
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/tema5/1.svg', alt='Texto que describa la imagen').mb-4
-                figcaption(style='background-color: #f6f1ff') Nota: Adaptada de Tractian, (2022)
+                figcaption(style='background-color: #f6f1ff') Nota: adaptada de Tractian (2022).
             .tarjeta.color-acento-botones.p-3(x="95%" y="2%" numero="1")
               img(src='@/assets/curso/temas/tema5/n1.svg', alt='' style='width: 50px').mb-3
               .textos.ms-3
@@ -99,8 +99,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="zoom-in")
         .tarjeta.bg-tec2(style='background-color: #e5e7f2').p-4
-          p Se utilizan para la identificación de diferentes procedimientos que se efectúan a los aparatos. Suministran información o comunican algo preciso en lo referente a la seguridad y funcionamiento del equipo; además de las configuraciones que cada fabricante tiene hacia sus componentes en restricciones de uso, almacenamiento, transporte y otras características.
-    
+          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 </template>
 
 <script>

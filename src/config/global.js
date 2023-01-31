@@ -74,7 +74,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Sistemas de Información',
+        titulo: 'Sistemas de información',
         desarrolloContenidos: true,
       },
     ],
@@ -130,21 +130,21 @@ export default {
       tema: 'Aparatos eléctricos y electrónicos',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Diagnóstico de circuitos electrónicos digitales: introducción</em> [video]. YouTube. ',
-      tipo: 'Video.',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=UV2wDC09B4g',
     },
     {
       tema: 'Aparatos eléctricos y electrónicos',
       referencia:
         'Arrow Divisiones. (2022). <em>Fabricantes, Proporcionamos la tecnología que necesita. Arrow.</em> ',
-      tipo: 'Página Web.',
+      tipo: 'Página Web',
       link: 'https://www.arrow.com/es-mx/manufacturers',
     },
     {
       tema: 'Equipamiento',
       referencia:
         'Mora, L. (2016). <em>Inventario Cero Cuánto y cuándo pedir.</em> Alfaomega.',
-      tipo: 'Libro  ',
+      tipo: 'Libro',
       link:
         'https://books.google.com.co/books?hl=es&lr=&id=WaFxEAAAQBAJ&oi=fnd&pg=PA6&dq=Inventario+Cero+Cu%C3%A1nto+y+cu%C3%A1ndo+pedir.&ots=HjBxM0_txJ&sig=rk3nAOsb4VTW96lI9kT5LBKlGGE&redir_esc=y#v=onepage&q=Inventario%20Cero%20Cu%C3%A1nto%20y%20cu%C3%A1ndo%20pedir.&f=false',
     },
@@ -210,7 +210,7 @@ export default {
     {
       termino: 'Soldadura',
       significado:
-        'proceso industrial por medio del cual se unen mínimo dos elementos, que generalmente son metálicos, fundiendo',
+        'proceso industrial por medio del cual se unen mínimo dos elementos, que generalmente son metálicos, fundiendo parte de ellos con un aporte de material específico, el cual ayuda a la cohesión.',
     },
   ],
   referencias: [
@@ -222,7 +222,7 @@ export default {
     },
     {
       referencia:
-        'Altium Limited. (2020). Ficha técnica de componentes electrónicos para su gestión',
+        'Altium Limited. (2020). Ficha técnica de componentes electrónicos para su gestión.',
       link:
         'https://resources.altium.com/sites/default/files/uberflip_docs/file_806.pdf',
     },

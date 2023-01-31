@@ -52,10 +52,10 @@
       .row.justify-content-center.align-items-center(titulo="2")
         .col-md-6: img.img-212(src='@/assets/curso/temas/tema1/img-4.svg', alt='')
         .col-md-6.mb-4.mb-md-0
-          p Monitores, pantallas y artilugios con pantallas de superficie superior a los 100 cm2, (equivalentes para la Directiva del 2002, equipos de informática y telecomunicaciones, exclusivamente equipos de informática con pantallas de tamaño superior a 10 cm2).
+          p Monitores, pantallas y artilugios con pantallas de superficie superior a los 100 cm<sup>2</sup>, (equivalentes para la Directiva del 2002, equipos de informática y telecomunicaciones, exclusivamente equipos de informática con pantallas de tamaño superior a 10 cm<sup>2</sup>).
       .row.justify-content-center.align-items-center(titulo="3")
         .col-md-6.mb-4.mb-md-0
-          p Lámparas (equivalentes para la Directiva del 2002: aparatos de alumbrado excepto las luminarias o bombillas).
+          p Lámparas (equivalentes para la Directiva del 2002: aparatos de alumbrado, excepto las luminarias o bombillas).
         .col-md-6: img.img-212(src='@/assets/curso/temas/tema1/img-5.svg', alt='')
       .row.justify-content-center.align-items-center(titulo="4")
         .col-md-6: img.img-212(src='@/assets/curso/temas/tema1/img-6.svg', alt='')
@@ -122,7 +122,7 @@
           .col-8
             img(src='@/assets/curso/temas/tema1/16.svg' alt='AvatarTop')
         h3.text-center Aparatos médicos 
-        p.text-center Equipos para radioterapia, cardiología, diálisis, ventilación pulmonar, etc
+        p.text-center Equipos para radioterapia, cardiología, diálisis, ventilación pulmonar, etc. 
       .tarjeta.p-4.h-100(style="background-color: #ddf7ec")
         .row.justify-content-center.mb-4
           .col-8
@@ -137,8 +137,10 @@
         p.text-center Son aquellas que entregan productos sólidos, bebidas frías, calientes y dinero.
 
     Separador
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2 Componentes electrónicos
+    #t_1_2.titulo-segundo.color-acento-contenido.mb-5(data-aos='fade-right')
+      h2 1.2 Componentes electrónicos y componentes mecánicos
+  
+    br
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.p-4.position-relative(style="background-color: #e5e7f2")
@@ -146,6 +148,7 @@
             .col-lg-8
               p.mb-0 Los componentes electrónicos hacen referencia a todas aquellas piezas individuales que se requieren para la realización de circuitos y de tarjetas. Existe una amplia gama que califica para diferentes aplicaciones, materiales, usos, entre otros (Mouser electronics, 2022). 
           .imagen-absolute2.d-none.d-lg-block: img(src='@/assets/curso/temas/tema1/19.svg', alt='')
+    br
     p.mb-5(data-aos='fade-right') De acuerdo con Landín (2017), los componentes electrónicos se pueden clasificar, teniendo en cuenta diversos criterios:
     .margin-n.bg-rosa.p-5
       .row.justify-content-center
@@ -195,7 +198,8 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 1
-          p.mb-0 Listado de fabricantes de componentes electrónicos más populares 
+          p.mb-0 
+            em Listado de fabricantes de componentes electrónicos más populares 
         img(src='@/assets/curso/temas/tema1/22.png', alt='').mb-3
         figcaption(style='background-color: #f6f1ff') Nota: tomado de Arrow Divisiones (2022).
 

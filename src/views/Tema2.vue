@@ -12,7 +12,7 @@
         
       )
       .bloque-texto-g__texto.p-4.w-80
-        p.mb-0 A los suministros convencionales que se tenían en diversos lugares de trabajo, se han sumado medidas adicionales por COVID 19, con el fin de evitar riesgos biológicos que puedan ayudar a propagar el virus. Se requiere utilizar todos los elementos de protección necesarios que cada gobierno ponga a consideración. 
+        p.mb-0 A los suministros convencionales que se tenían en diversos lugares de trabajo, se han sumado medidas adicionales, en virtud de las nuevas necesidades ocasionadas por la pandemia del COVID-19. Con ellas, se presume que mitigan riesgos biológicos que puedan ayudar a propagar el virus. Se requiere utilizar todos los elementos de protección necesarios que cada gobierno ponga en consideración. 
 
 
     h3 Herramientas y equipos
@@ -20,7 +20,8 @@
       .col-lg-10.position-relative
         .tarjeta.p-4.position-relative(style="background-color: #ffe6c1; width: 78%")
           .p-3.me-5
-            p.mb-0Para desempeñar un buen trabajo, es clave contar con las herramientas y equipos más apropiados y no es pertinente sustituirlos por otros elementos de los que se cree que pueden cumplir con la misma función. Es fundamental, además, identificar en cuál de los dos estados lógicos de la electrónica digital se encuentran, sea por ausencia o por presencia de la tensión (SENA, 2022).
+            p.mb-0 Para desempeñar un buen trabajo, es clave contar con las herramientas y equipos más apropiados y no es pertinente sustituirlos por otros elementos de los que se cree que pueden cumplir con la misma función. Es fundamental, además, identificar en cuál de los dos estados lógicos de la electrónica digital se encuentran, sea por ausencia o por presencia de la tensión (SENA, 2022).
+
         .imagen-absolute.d-none.d-lg-block: img(src='@/assets/curso/temas/tema2/2.svg', alt='')
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(style='border: 2px solid #20cb7d')
@@ -29,7 +30,7 @@
         
       )
       .bloque-texto-g__texto.p-4.w-80
-        p Las herramientas se clasifican según su funcionamiento; las herramientas de uso manual no requieren fuente de alimentación y, en esta categoría se encuentran: destornilladores, alicates, pelacables, fundas termorretráctiles, bridas de plástico, guantes antiestáticos, brochas, hisopos, tercera mano con lupa. 
+        p Las herramientas se clasifican según su funcionamiento; las herramientas de uso manual no requieren fuente de alimentación y, en esta categoría, se encuentran: destornilladores, alicates, pelacables, fundas termorretráctiles, bridas de plástico, guantes antiestáticos, brochas, hisopos, tercera mano con lupa. 
         br
         br        
         p Luego, están las herramientas eléctricas, que requieren de alimentación, de las cuales las más conocidas son: soldador o cautín, pistola de aire o de silicona, Mototool, generador de señales, fuente de alimentación, osciloscopios, sopladora o aspiradora.
@@ -44,7 +45,7 @@
       .col-lg-9(data-aos="fade-right")
         TabsA.color-secundario.mb-5
           .tarjeta.p-4(titulo="Seguridad" style='background-color: #e5e7f2').p-5
-            p Básicamente, se utilizan gafas de protección, guantes de nitrilo y pulsera antiestática. Dependiendo de la zona de intervención, también se deben usar botas de seguridad, casco y ropa adecuada (Sumando los elementos de protección que se requieran para evitar el contagio de COVID 19, según las indicaciones impartidas por los gobiernos locales).
+            p Básicamente, se utilizan gafas de protección, guantes de nitrilo y pulsera antiestática. Dependiendo de la zona de intervención, también se deben usar botas de seguridad, casco y ropa adecuada (Sumando los elementos de protección que se requieran para evitar el contagio de COVID-19, según las indicaciones impartidas por los gobiernos locales).
           .tarjeta.p-4(titulo="Limpieza" style='background-color: #e5e7f2').p-5
             p Los componentes electrónicos son delicados y pueden dañarse fácilmente si no se tiene una buena manipulación e higiene; para ello se recomienda utilizar pinceles y alcohol isopropílico, además de los elementos básicos para mantener el espacio de trabajo aseado y en orden.
       .col-lg-3.col-6(data-aos="fade-left")
@@ -75,7 +76,7 @@
         .row.justify-content-between
           .col-lg-7
             h3.px-4 Soldado y desoldado
-            p.px-4 La estación de soldadura es significativa para la reparación de dispositivos electrónicos; los componentes principales son: pistola de calor o cautín con base, soldadura de estaño plomo, líquido flux, malla desoldadora y extractor de soldadura. Estos elementos son necesarios, tanto para el montaje de placas nuevas, como para el desarme de piezas en placas para reparar. 
+            p.px-4 La estación de soldadura es significativa para la reparación de dispositivos electrónicos; los componentes principales son: pistola de calor o cautín con base, soldadura de estaño, plomo, líquido <i>flux</i>, malla desoldadora y extractor de soldadura. Estos elementos son necesarios, tanto para el montaje de placas nuevas, como para el desarme de piezas en placas para reparar. 
           .col-lg-4(data-aos='fade-left')
             img(src='@/assets/curso/temas/tema2/8.png', alt='')
     h3 Procedimientos
@@ -183,17 +184,19 @@
 
       .row.justify-content-center.mb-5
         .col-lg-5(data-aos="fade-right")
-          p Se refiere al reporte que brinda el fabricante o los proveedores a los usuarios; se conoce, también, como ficha técnica o de características, hoja de datos, hoja técnica; allí se consigna información especializada del aparato eléctrico o electrónico, haciendo referencia a todos los componentes o subsistemas electrónicos que puedan ser empleados por el personal técnico. Estos manuales varían dependiendo del equipo, las regulaciones de las industrias a la que pertenece el dispositivo, y del fabricante. (<em>Altium Limited,</em> 2020)
+          p Se refiere al reporte que brinda el fabricante o los proveedores a los usuarios; se conoce, también, como ficha técnica o de características, hoja de datos, hoja técnica; allí se consigna información especializada del aparato eléctrico o electrónico, haciendo referencia a todos los componentes o subsistemas electrónicos que puedan ser empleados por el personal técnico. Estos manuales varían dependiendo del equipo, las regulaciones de las industrias a la que pertenece el dispositivo, y del fabricante. (Altium Limited, 2020)
         .col-lg-5(data-aos="fade-left")
 
           img(src='@/assets/curso/temas/tema2/22.png', alt='').mb-3
+          figcaption Nota: tomada de Hoja de datos LED-530LB5C (PDF) (2022).
+
     p.mb-5(data-aos='fade-right') A continuación, se resaltan algunos aspectos principales sobre las fichas. Es importante aclarar que estos documentos contienen información técnica muy específica, que debe ser interpretada por personal capacitado, referente al tipo de conexión, instalación, montaje, etc.
     TabsC.color-secundario.mb-5
       .bg-form.p-5.py-md-5(titulo="Descripción general")
         .row
           .col-md-3: img(src='@/assets/curso/temas/tema2/23.svg', alt='')
           .col-md-9.mb-4.mb-md-0
-            p Hace referencia a los detalles externos y a las características más relevantes de los componentes, cabe anotar que se especifican datos sobresalientes de la apariencia externa y de la parte estética del equipo (<em>Alldatasheet,</em> 2022).
+            p Hace referencia a los detalles externos y a las características más relevantes de los componentes, cabe anotar que se especifican datos sobresalientes de la apariencia externa y de la parte estética del equipo (Alldatasheet, 2022).
       .bg-form.p-5.py-md-5(titulo="Valores")
         .row
           .col-md-3: img(src='@/assets/curso/temas/tema2/24.svg', alt='')

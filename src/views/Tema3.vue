@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Elementos de marca
+      h1 Elementos de marca y ámbito ético de los procedimientos
     .row.justify-content-center.mb-5
       .col-lg-8.position-relative
         .tarjeta.p-4.position-relative(style="background-color: #e5e7f2; width: 100%")
