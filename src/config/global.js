@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'El desarme de los equipos es una de las funciones clave en los procesos de mantenimiento y ensamble. Este componente formativo aborda conceptos y acciones de operación que afianzarán conocimientos y habilidades del aprendiz. Se desarrollarán aspectos técnicos como: orden, aseo, seguridad, diligenciamiento de las diferentes evidencias y hallazgos que se encuentran durante el mantenimiento. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/banner.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
