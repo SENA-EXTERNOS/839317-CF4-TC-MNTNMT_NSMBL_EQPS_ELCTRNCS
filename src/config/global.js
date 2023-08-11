@@ -278,7 +278,7 @@ export default {
       referencia:
         'Salazar, J. (2013). La ética profesional en la ingeniería electrónica. [Web log post]. Wordpress.',
       link:
-        'https://juansalazars.wordpress.com/2013/01/03/la-etica-profesional-en- la- ingenieria-electronica/',
+        'https://juansalazars.wordpress.com/2013/01/03/la-etica-profesional-en-la-ingenieria-electronica/',
     },
   ],
   creditos: {
