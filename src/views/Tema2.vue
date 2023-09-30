@@ -166,10 +166,10 @@
             img(src='@/assets/curso/temas/tema2/18.png', alt='')
     .modal-azul
       ModalA(:abrir-modal.sync="modal1" )
-        p  El enchufe tipo A es el estandarizado para Norte América y América Central, son muy similares a los tomacorriente y enchufes japoneses. Este enchufe no tiene conexión a tierra, se utilizaba antes en Colombia, tiene dos clavijas planas paralelas entre sí y no tiene conexión a línea tierra. En caso de no contar con los tomacorrientes tipo B (clavijas planas paralelas y una redonda) No se debe retirar la clavija redonda para que se pueda utilizar. Se recomienda utilizar un convertidor de clavijas de Tipo B a tipo A.
+        p  El enchufe tipo A es el estandarizado para Norte América y América Central, son muy similares a los tomacorriente y enchufes japoneses. Este enchufe no tiene conexión a tierra, se utilizaba antes en Colombia, tiene dos clavijas planas paralelas entre sí y no tiene conexión a línea tierra. En caso de no contar con los tomacorrientes tipo B (clavijas planas paralelas y una redonda) no se debe retirar la clavija redonda para que se pueda utilizar. Se recomienda utilizar un convertidor de clavijas de Tipo B a tipo A.
           br
           br
-          |El enchufe tipo B es el implementado en Colombia. Este enchufe tiene conexión a tierra en una tercera clavija de forma redonda, que es la diferencia más grande con el enchufe tipo A, además tiene dos clavijas planas paralelas entre sí. Es el tipo de conexión más común en todos los aparatos eléctricos y electrónicos que se encuentran en Colombia, son usuales en los televisores, videobeam, neveras, hornos microondas, ollas y sartenes eléctricos, planchas, computadores, estabilizadores, extensiones, celulares entre muchos otros. (UPB, 2021). Cabe anotar que este tipo de conector puede utilizar en un enchufe tipo A utilizando un convertidor de dos clavijas planas paralelas y una redonda (tipo B) a uno de dos clavijas planas paralelas (tipo A).
+          |El enchufe tipo B es el implementado en Colombia. Este enchufe tiene conexión a tierra en una tercera clavija de forma redonda, que es la diferencia más grande con el enchufe tipo A, además tiene dos clavijas planas paralelas entre sí. Es el tipo de conexión más común en todos los aparatos eléctricos y electrónicos que se encuentran en Colombia, son usuales en los televisores, videobeam, neveras, hornos microondas, ollas y sartenes eléctricos, planchas, computadores, estabilizadores, extensiones, celulares, entre muchos otros. (UPB, 2021). Cabe anotar que este tipo de conector puede utilizar en un enchufe tipo A utilizando un convertidor de dos clavijas planas paralelas y una redonda (tipo B) a uno de dos clavijas planas paralelas (tipo A).
     
     h3.mb-5 Fichas y manuales
     .row.justify-content-center.mb-5
@@ -230,7 +230,7 @@
                 p.mb-0 Son instructivos, donde los fabricantes o proveedores explican las pautas del mantenimiento, los repuestos que se deben de tener a la mano y las fallas más comunes, así como todos los protocolos de seguridad necesarios. Estos documentos son de carácter más general para el público y los usuarios, no requieren de un alto grado de capacitación para su entendimiento, diferente a las fichas, que contienen información más técnica. (Harper, 2002)
         .imagen-absolute3.d-none.d-lg-block: img(src='@/assets/curso/temas/tema2/27.svg', alt='')
     .bg-linea-tiempo.p-5 
-      p.mb-5(data-aos='fade-right') A continuación, se explican las principales partes de los manuales de servicio, entendiendo que es un documento que ayuda a la resolver problemas simples, que pueden ser solucionados por el usuario o personal con poca capacitación:
+      p.mb-5(data-aos='fade-right') A continuación, se explican las principales partes de los manuales de servicio, entendiendo que es un documento que ayuda a resolver problemas simples, que pueden ser solucionados por el usuario o personal con poca capacitación:
       .row.justify-content-center.mb-5
         .col-lg-10.text-start
           PasosA.color-secundario.mb-5(tipo="n")

@@ -174,7 +174,7 @@
                 |#[b Electroacústicos:] tienen la competencia de transformar la energía acústica en eléctrica y viceversa. Algunos de los más conocidos son los auriculares, bocinas, altavoces, parlantes y micrófonos.
                 br
                 br
-                |#[b Electromagnéticos:] son componentes mixtos, una parte electrónica y una magnética, aprovechando las propiedades de los materiales, trabajando bajo ambos principios y dependiendo de estos para su operación correcta. sobresalen: los transformadores e inductores.
+                |#[b Electromagnéticos:] son componentes mixtos, una parte electrónica y una magnética, aprovechando las propiedades de los materiales, trabajando bajo ambos principios y dependiendo de estos para su operación correcta. Sobresalen: los transformadores e inductores.
       
         .col-lg-4.col-6(data-aos="fade-left")
 
