@@ -36,7 +36,7 @@
         p Luego, están las herramientas eléctricas, que requieren de alimentación, de las cuales las más conocidas son: soldador o cautín, pistola de aire o de silicona, Mototool, generador de señales, fuente de alimentación, osciloscopios, sopladora o aspiradora.
         br
         br
-        p Finalmente, se habla de aquellas herramientas que acumulan energía para liberarla (linterna, multímetro, calibrador digital). No son las únicas herramientas y componentes que existen, se quedan muchas fuera de estas consideraciones, pero estas son las más utilizadas e importantes para las reparaciones. (Harper, 2002)
+        p Finalmente, se habla de aquellas herramientas que acumulan energía para liberarla (linterna, multímetro, calibrador digital). No son las únicas herramientas y componentes que existen, se quedan muchas fuera de estas consideraciones, pero estas son las más utilizadas e importantes para las reparaciones (Harper, 2002).
 
 
 
