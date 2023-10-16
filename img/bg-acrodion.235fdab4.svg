@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820.5" height="80" viewBox="0 0 820.5 80">
+  <g id="bg-acrodion" transform="translate(-180 -8933.95)">
+    <path id="Path_248302" data-name="Path 248302" d="M11.465,0H808.284c6.332,0,11.465,4.477,11.465,10V70c0,5.523-5.133,10-11.465,10H11.465C5.133,80,0,75.523,0,70V10C0,4.477,5.133,0,11.465,0Z" transform="translate(180 8933.95)" fill="#29398a"/>
+    <g id="Group_130808" data-name="Group 130808" transform="translate(1000.5 8936.357) rotate(90)" opacity="0.6">
+      <g id="Group_130082" data-name="Group 130082" transform="translate(0 0)">
+        <g id="Group_130709" data-name="Group 130709" transform="translate(0 0)">
+          <g id="Group_130708" data-name="Group 130708" transform="translate(73.591) rotate(90)" opacity="0.7">
+            <path id="Path_247495" data-name="Path 247495" d="M0,6.572H54.081L73.309,19.193l24.42-.23L128,0h79.671" transform="translate(0.326 54.398)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="1.5"/>
+            <path id="Path_247496" data-name="Path 247496" d="M117.694,11.187H44.025L27.654,0H0" transform="translate(0.326 9.47)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="1.5"/>
+            <path id="Path_247497" data-name="Path 247497" d="M215.25,11.747H175.92L165.729,21.939H128.772L118.02,11.187H44.352L27.981,0H0" transform="translate(0 15.873)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="1.5"/>
+            <line id="Line_347" data-name="Line 347" x2="258.174" transform="translate(0.326 42.742)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="1.5"/>
+            <path id="Path_247510" data-name="Path 247510" d="M0,0H47.783L60.4,8.307h91.811" transform="translate(0.326)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
